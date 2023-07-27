@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * _strncat - conctenates two strings
+  * _strncat: conctenates two strings
   * @dest: destination string
   * @src: soyrce string
   * @n: number of bytes to concatenates
@@ -19,3 +19,4 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	dest[len + i] = '\0';
 	return (dest);
+}
